@@ -1,28 +1,28 @@
 {
   "name": "another-telnet-client",
   "description": "Simple node.js telnet client",
-  "author": {
-    "name": "Jorge Canha",
-    "email": "jcanha.dev@gmail.com"
-  },
+  "author": "Jorge Canha <jcanha.dev@gmail.com>",
   "version": "0.1.0",
   "main": "./lib/telnet-client.js",
   "engine": "node >= 0.10.23",
-  "license": {
-    "type": "MIT"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/canha/another-telnet-client.git"
   },
   "contributors": [
-    {
-      "name": "Mario Kozjak",
-      "email": "kozjakm1@gmail.com"
-    },
-    {
-      "name": "Petar Koretic",
-      "email": "petar.koretic@sartura.hr"
-    }
+    "Mario Kozjak <kozjakm1@gmail.com>",
+    "Petar Koretic <petar.koretic@sartura.hr>"
+  ],
+  "bugs": {
+    "url": "https://github.com/canha/another-telnet-client/issues"
+  },
+  "homepage": "https://github.com/canha/another-telnet-client",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telnet",
+    "client"
   ]
 }
