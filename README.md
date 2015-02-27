@@ -1,4 +1,4 @@
-# node-telnet-client
+# another-telnet-client
 
 A simple telnet client for node.js
 
@@ -6,20 +6,19 @@ A simple telnet client for node.js
 
 Locally in your project or globally:
 
-    npm install telnet-client
-    npm install -g telnet-client
+    npm install another-telnet-client
+    npm install -g another-telnet-client
 
 ## Example usage
 
-    var telnet = require('telnet-client');
+    var telnet = require('another-telnet-client');
     var connection = new telnet();
     
     var params = {
       host: '127.0.0.1',
       port: 23,
       shellPrompt: '/ # ',
-      timeout: 1500,
-      // removeEcho: 4
+      timeout: 1500
     };
     
     connection.on('ready', function(prompt) {
@@ -41,7 +40,7 @@ Locally in your project or globally:
 
 ## API
 
-    var telnet = require('telnet-client');
+    var telnet = require('another-telnet-client');
     var connection = new telnet();
 
 ### connection.connect(options)

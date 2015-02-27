@@ -1,27 +1,25 @@
 {
-  "name": "telnet-client",
+  "name": "another-telnet-client",
   "description": "Simple node.js telnet client",
   "author": {
-    "name": "Mario Kozjak",
-    "email": "kozjakm1@gmail.com"
+    "name": "Jorge Canha",
+    "email": "jcanha.dev@gmail.com"
   },
-  "version": "0.0.8",
+  "version": "0.1.0",
   "main": "./lib/telnet-client.js",
   "engine": "node >= 0.10.23",
   "license": {
     "type": "MIT"
   },
-  "devDependencies": {
-    "nodeunit": ">= 0.9.0"
-  },
-  "scripts": {
-    "test": "nodeunit test"
-  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/mkozjak/node-telnet-client.git"
+    "url": "https://github.com/canha/another-telnet-client.git"
   },
   "contributors": [
+    {
+      "name": "Mario Kozjak",
+      "email": "kozjakm1@gmail.com"
+    },
     {
       "name": "Petar Koretic",
       "email": "petar.koretic@sartura.hr"
