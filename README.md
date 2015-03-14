@@ -1,6 +1,6 @@
 # another-telnet-client
 
-A simple telnet client for node.js
+A simple Node.Js telnet client with some extra features like support for the 'enable' command usually found on Cisco equipment.
 
 ## Installation
 
@@ -55,6 +55,11 @@ of inactivity on the socket.
 * shellPrompt: Shell prompt that the host is using. Defaults to regex '/(?:\/ )?#\s/'.
 * loginPrompt: Username/login prompt that the host is using. Defaults to regex '/login[: ]*$/i'.
 * username: Username used to login. Defaults to 'root'.
+* password: Password for the login username. Defaults to 'guest'.
+* passwordPrompt: The prompt that comes after the username. Defaults to regex '/Password: /i'.
+* enable: For devices (like Cisco equipment) that require "enable" for elevated permissions. Defaults to false.
+* enablePassword: Password for the enable command. Defaults to 'enablepass'.
+* enablePrompt: The prompt that appears when enable is used. Defaults to regex '/Password: /i'.
 * irs: Input record separator. A separator used to distinguish between lines of the response. Defaults to '\r\n'.
 * ors: Output record separator. A separator used to execute commands (break lines on input). Defaults to '\n'.
 * echoLines: The number of lines used to cut off the response. Defaults to 1.

@@ -1,8 +1,8 @@
 {
   "name": "another-telnet-client",
-  "description": "Simple node.js telnet client",
+  "description": "Simple Node.Js telnet client with some extra features",
   "author": "Jorge Canha <jcanha.dev@gmail.com>",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./lib/telnet-client.js",
   "engine": "node >= 0.10.23",
   "license": "MIT",
@@ -23,6 +23,7 @@
   },
   "keywords": [
     "telnet",
-    "client"
+    "client",
+    "cisco"
   ]
 }
