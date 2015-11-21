@@ -2,10 +2,15 @@
   "name": "another-telnet-client",
   "description": "Simple Node.Js telnet client with some extra features",
   "author": "Jorge Canha <jcanha.dev@gmail.com>",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "main": "./lib/telnet-client.js",
   "engine": "node >= 0.10.23",
   "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^2.11.x",
+    "jscoverage": "^0.6.x",
+    "nodeunit": ">= 0.9.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/canha/another-telnet-client.git"
@@ -19,7 +24,8 @@
   },
   "homepage": "https://github.com/canha/another-telnet-client",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodeunit test",
+    "coveralls": "jscoverage lib && NODETELNETCLIENT_COV=1 nodeunit --reporter=lcov test | coveralls"
   },
   "keywords": [
     "telnet",
